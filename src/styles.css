@@ -1,1 +1,10 @@
-/* You can add global styles to this file, and also import other style files */
+@import './reset.css';
+
+html {
+    --light-blue: #82ccdd;
+    --clear-color: #ccf2ff;
+    --text-color: #13294b;
+    --font-family: 'Montserrat', sans-serif;
+    --logo-blue: #1d3d8b;
+    --text-main-color: #003E51;
+  }

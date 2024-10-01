@@ -1,0 +1,65 @@
+/* reset.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body {
+    font-size: 100%;
+    line-height: 1;
+    font-family: sans-serif;
+  }
+  
+  ul, ol {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Supprime les bordures par défaut des images */
+  img {
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  button, input, textarea {
+    border: none;
+    background: none;
+    outline: none;
+    font-family: inherit;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  input, button, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  blockquote, q {
+    quotes: none;
+  }
+  
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+  }

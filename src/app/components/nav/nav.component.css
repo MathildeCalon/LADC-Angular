@@ -1,0 +1,45 @@
+#header {
+  background-color: var(--light-blue);
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: var(--text-color);
+  
+  a:hover {
+    cursor: pointer;
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+
+  a {
+    position: relative; /* Nécessaire pour positionner le pseudo-élément */
+    display: inline-block; /* Limite la largeur à celle du texte du lien */
+  }
+
+  a::after {
+    content: ""; /* Nécessaire pour que le pseudo-élément s'affiche */
+    position: absolute;
+    left: 0;
+    bottom: -2px; /* Ajuste la position sous le texte */
+    width: 0; /* Commence avec une largeur de 0 */
+    height: 2px; /* Épaisseur de la ligne */
+    background-color: currentColor; /* Utilise la couleur du texte */
+    transition: width 0.3s ease; /* Transition fluide pour l'apparition */
+  }
+
+  /* Au survol, le soulignement s'étend progressivement */
+  a:hover::after {
+    width: 100%; /* La largeur passe à 100% lors du survol */
+  }
+}
