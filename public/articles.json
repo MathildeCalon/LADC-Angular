@@ -1,0 +1,98 @@
+[
+    {
+    "id":"1",
+    "title": "Borne karaoké",
+    "description": "",
+    "price": 60,
+    "image": "borne_karaoke.png",
+    "max_quantity": 1
+    },
+        {
+    "id":"2",
+    "title": "Ecran",
+    "description": "Dimensions 175 * 175",
+    "price": 10,
+    "image": "ecran_projection.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"3",
+    "title": "Jeux de lumière",
+    "description": "A l'unité, 4 maximum",
+    "price": 10,
+    "image": "jeux_de_lumiere.png",
+    "max_quantity": 4
+    },
+    {
+    "id":"4",
+    "title": "Machine à fumée",
+    "description": "Produit inclus",
+    "price": 20,
+    "image": "machine_a_fumee.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"5",
+    "title": "Machine à Popcorn",
+    "description": "",
+    "price": 40,
+    "image": "machine_popcorn.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"6",
+    "title": "Mange debout",
+    "description": "Lycra blanc inclus, 4 maximum",
+    "price": 8,
+    "image": "mange_debout.png",
+    "max_quantity": 4
+    },
+    {
+    "id":"7",
+    "title": "Perfectdraft",
+    "description": "",
+    "price": 20,
+    "image": "perfectdraft.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"8",
+    "title": "Sono 400W",
+    "description": "",
+    "price": 50,
+    "image": "sono.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"9",
+    "title": "Vidéoprojecteur",
+    "description": "",
+    "price": 40,
+    "image": "videoprojecteur.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"10",
+    "title": "Micro",
+    "description": "Pied inclus",
+    "price": 10,
+    "image": "micro.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"11",
+    "title": "Bartop Arcade",
+    "description": "",
+    "price": 90,
+    "image": "arcade.png",
+    "max_quantity": 1
+    },
+    {
+    "id":"15",
+    "title": "Machine à Barbe à Papa",
+    "description": "",
+    "price": 40,
+    "image": "barbe_a_papa.png",
+    "max_quantity": 1
+    }
+]

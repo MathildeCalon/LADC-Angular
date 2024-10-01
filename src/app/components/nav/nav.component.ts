@@ -9,7 +9,8 @@ import { RouterLink } from '@angular/router';
   styleUrl: './nav.component.css'
 })
 export class NavComponent {
-  articleCount:number = 0;
+
+  articleCount: number = 0;
 
   incrementArticleCount() {
     this.articleCount++;
