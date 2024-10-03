@@ -10,5 +10,9 @@ import { Article } from '../../utils/types';
 })
 export class ArticleComponent {
   @Input()
-  article ?: Article;
+  article?: Article;
+
+  addToCart(articleId){
+    console.log('Add to cart');
+  }
 }

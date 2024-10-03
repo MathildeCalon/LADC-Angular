@@ -1,0 +1,45 @@
+.article {
+    border-radius: 20px;
+    border: 2px solid var(--light-blue);
+    height: 400px;
+}
+
+.article-img {
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+    justify-content: center;
+    img {
+        width:auto;
+        height: auto;
+    }
+}
+
+.article-title {
+    height: 100px;
+    transition: 0.2s color;
+    border-radius: 0 0 20px 20px;
+}
+
+.article-description {
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 961px) {
+    .article:hover {
+        transform: scale(1.1);
+        transition: 0.5s transform;
+    }
+    .add-to-cart:hover {
+        font-weight: bold;
+    };
+};
+
+@media screen and (max-width: 960px) {
+    .add-to-cart{
+        i {
+            margin-left: 10px;
+        }
+    }
+};

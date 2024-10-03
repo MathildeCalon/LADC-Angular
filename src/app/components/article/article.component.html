@@ -1,11 +1,32 @@
 <div class="article">
-    <div class="article-img">
-        <img src="images/{{article?.image}}" alt={{article?.title}}>
-    </div>
-    <div class="article-title">
-        <h3>{{article?.title}}</h3>
-    </div>
-    <div class="article-description">
-        <p>{{article?.description}}</p>
-    </div>
+  <div class="article-img">
+    <img src="images/{{ article?.image }}" alt="{{ article?.title }}" />
+  </div>
+  <div class="article-title">
+    <h3>{{ article?.title }}</h3>
+  </div>
+  <div class="article-description">
+    <p>{{ article?.description }}</p>
+  </div>
+
+  @if(article && article.max_quantity > 1){
+  <div class="article-quantity">
+    <label for="quantity">Quantité :</label>
+    <input
+      type="number"
+      id="quantity"
+      name="quantity"
+      min="1"
+      max="{{ article.max_quantity }}"
+      [defaultValue]="1"
+      required
+    />
+  </div>
+  }
+
+  <div class="add-to-cart">
+    <button (click)="addToCart(article.id)">
+      Ajouter au panier - {{ article?.price }}
+    </button>
+  </div>
 </div>
